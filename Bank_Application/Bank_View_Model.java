@@ -40,6 +40,14 @@ public class Bank_View_Model {
 				break;
 				
 			case 5 :
+				b.sendMoney();
+				break;
+				
+			case 6 :
+				b.transactionHistory();
+				break;
+				
+			case 7 :
 				clock = false;
 				System.out.println("Thank for Banking...");
 				break;
